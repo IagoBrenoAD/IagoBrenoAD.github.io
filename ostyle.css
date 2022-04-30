@@ -26,14 +26,13 @@ a{
   color: #000000;
 }
 
-main{
+aside{
   display: flex;
-  height: 28rem;
-  margin-bottom: 1rem;
 }
-main img{
+.div1{
+  border-right: 2px solid #000000;
   margin-right: 1rem;
-  max-width: 100%;
+  padding-right: 1rem;
 }
 
 footer{
@@ -43,4 +42,8 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: #72757e;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.5rem;
+  width: 98.70%;
 }
