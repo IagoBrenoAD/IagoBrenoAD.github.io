@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: #f2f7f5;
 }
@@ -43,4 +46,8 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: #72757e;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.5rem;
+  width: 98.70%;
 }

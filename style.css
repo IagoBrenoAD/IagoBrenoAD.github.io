@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: #f2f7f5;
 }
@@ -46,8 +49,8 @@ aside h1{
 footer{
   display: flex;
   border-top: 2px solid black;
-  height: 10%;
-  width: 98.70%;
+  height: 4.5rem;
+  width: 100vw;
   justify-content: center;
   align-items: center;
   position: absolute;

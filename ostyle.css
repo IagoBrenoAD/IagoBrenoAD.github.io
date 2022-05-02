@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: #f2f7f5;
 }
@@ -7,10 +10,14 @@ header{
   border-bottom: 2px solid black;
   align-items: center; 
   height: 4.5rem;
+  width: 100vw;
+  left: 0;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-bottom: 1rem;
   background-color: #72757e;
+  position: absolute;
+  top: 0;
 }
 ul{
   display: flex;
@@ -48,6 +55,6 @@ footer{
   background-color: #72757e;
   position: absolute;
   bottom: 0;
-  margin-bottom: 0.5rem;
-  width: 98.70%;
+  width: 100vw;
+  left: 0;
 }
